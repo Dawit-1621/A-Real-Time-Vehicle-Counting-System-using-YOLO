@@ -11,3 +11,7 @@ YOLO algorithm works using the following three techniques:
 1. Residual blocks
 2. Bounding box regression
 3. Intersection Over Union (IOU)
+Residual blocks
+First, the image is divided into various grids. Each grid has a dimension of S x S. The following image shows how an input image is divided into grids.
+![image](https://user-images.githubusercontent.com/23136710/141470657-8f222b38-9aeb-4f6d-8895-e45bde6a1572.png)
+In the image above, there are many grid cells of equal dimension. Every grid cell will detect objects that appear within them. For example, if an object center appears within a certain grid cell, then this cell will be responsible for detecting it.
