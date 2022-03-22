@@ -8,6 +8,7 @@ YOLO algorithm is important because of the following reasons:-
 * Speed: This algorithm improves the speed of detection because it can predict objects in real-time.
 * High accuracy: YOLO is a predictive technique that provides accurate results with minimal background errors.
 * Learning capabilities: The algorithm has excellent learning capabilities that enable it to learn the representations of objects and apply them in object detection.
+
 ##### How the YOLO algorithm works
 YOLO algorithm works using the following three techniques:
 1. Residual blocks
